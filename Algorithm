@@ -1,0 +1,13 @@
+STEP 1 –Input: Capture video through webcam.
+STEP 2 – Read the video stream in image frames.
+STEP 3 – Convert the image frame in BRG (RGB color space represented as three 
+matrices of red, green and blue with integer values from 0 to255 to HSV (huesaturation-value) color space . Hue describes a color in terms of saturation , 
+represents the amount of gray color in that color and value describes the brightness 
+or intensity of the color. This can can be represented as three matrices in the range 
+of 0-179 , 0-255 and 0-255 respectively.
+STEP 4 –Define the range of each color and create the corresponding mask.
+STEP 5 – Morphological Transform : dilation, to remove noises from the 
+images
+STEP 6 – Create contour for the individual colors to display the detected color 
+region distinguishly.
+STEP 7 – Output : Detection of the colors in real-time.
